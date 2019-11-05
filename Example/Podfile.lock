@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TuConfirmOrder (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TuConfirmOrder (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TuConfirmOrder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TuConfirmOrder: 3080d405fb8613290e8e8708388067b2169a99db
+
+PODFILE CHECKSUM: 559276e191f9da8eb0af0a1d893b817a5e1875c5
+
+COCOAPODS: 1.8.4

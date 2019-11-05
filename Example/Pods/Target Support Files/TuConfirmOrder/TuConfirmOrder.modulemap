@@ -1,0 +1,6 @@
+framework module TuConfirmOrder {
+  umbrella header "TuConfirmOrder-umbrella.h"
+
+  export *
+  module * { export * }
+}
