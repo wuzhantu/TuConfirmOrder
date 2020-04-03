@@ -7,49 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FC03F43E942E8A2545C764CD929BD979 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07A83E5FCA4707B847E3422DC819F91C /* Pods-TuConfirmOrder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 735EDE47985D3FDF49AB2C2217D19B9F /* Pods-TuConfirmOrder_Tests-dummy.m */; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		2FCE9F0BD9BB54094D707D62A167644F /* Target_TAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B30282A0306B6E2B4FC217D8AD7E8C /* Target_TAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4052CF68B88D2BF94DCA3EF98C4F72F8 /* TAConfirmOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CB744C009AB73C6203BF4189B16F37 /* TAConfirmOrderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4721B1E5C2C01920470F46669C937B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		4FCD5D9E8811C3ECEB67A43C45589B9A /* TuConfirmOrder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D538D2976C1735E4132C73C0B71D81 /* TuConfirmOrder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		0DE748D5200F14C45DBEE849F3F3B663 /* Target_TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FFAF8BC54BE88C1486B1CD569491C /* Target_TAConfirmOrder.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B5AABDF9534D152CE5A99AE4B4F906 /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = A9393B29FB4865D1DE91844F2B30E3BE /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B5A0697A44A19655A88E09ED94F240 /* QuartzCore.framework */; };
+		1557B34D2DB83DAC73B30944C462B003 /* Target_TAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 048723BCA15FC48F148314B30A427412 /* Target_TAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16FF7DA8BC9900A8F25000DF0F575E1D /* CTMediator+TAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1E84AC8F3D18FD303B59D6B3284AC9 /* CTMediator+TAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B4C9C8741FD9760C61C6DD7C30EBF2 /* TAConfirmOrderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E61EC6AA4CDC6C9DBFF54A4C4587DA77 /* TAConfirmOrderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = E97080BDCED1460E169183FC71242336 /* UIImage+Compare.m */; };
+		30CCB8E2C233144F699BDA1BA371B32B /* TuConfirmOrder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17674F7B1482D0B4E561CCCDEBD90465 /* TuConfirmOrder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DB326E4342E0A260FAA6E3EED54765 /* ic_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB3F6FDDDBFFF45D1B3F5A169132280 /* ic_more@3x.png */; };
+		34532A04FBD334576ABC3234B84F4EEF /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24E217D19C359E17E8C546936E8C63E /* CTMediator.framework */; };
+		34597982818C6767EE491DC195D7D7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16DE2ACF13EE089BBF0A239F89D81ED /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BACB69925DE56039F5B753350AC046D /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 856417BA439AF92DDAF2FBBC6EA5359C /* CTMediator.m */; };
+		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E3DC16A8C5828F3A086EC421CF1BE8 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502B3711BA63F784A8B54B4A1BFC6BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		581303D4EC3DB3781884D96C30753EDD /* Shape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D428BBBA951AE2B9D7291FB60909D1B /* Shape@3x.png */; };
+		58B72CDB83FA51BAA80541AD5AA2058F /* ic_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FB9F99F183C3C376623B0FB83B8766 /* ic_more@2x.png */; };
+		61ED1196526E3B3FB84FF01157FE3F67 /* TuConfirmOrderBusinessCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A05182B334BE01CCB91CA65C71CDBF20 /* TuConfirmOrderBusinessCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3F7297BF4B00E3E5B2868B33795608 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BD5B71D9899B438A63C24C86CCF857 /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36750687A5025BD4D974D4E78DE006D2 /* FBSnapshotTestCase-dummy.m */; };
+		6F1E84A57E640C86231F3B0B8B0F74D3 /* TuConfirmOrderBusinessCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6BB7EA52AE5D8883A6F4A2D93A1D77 /* TuConfirmOrderBusinessCategory-dummy.m */; };
+		71C55E0644EE66D6C2BFB58CF84B4EB5 /* Pods-TuConfirmOrder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0669999357D1CA0F4EC16D9C9888FB4 /* Pods-TuConfirmOrder_Example-dummy.m */; };
+		762FCD22F676BE15F70F06D2EAD5F402 /* TAConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9366959716C42A69709C955FA24785 /* TAConfirmOrderViewController.m */; };
 		769096D45B468A7BDAE3752A2561D7C9 /* Pods-TuConfirmOrder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C408C33011DEB841A45CF5A71AA4BFA /* Pods-TuConfirmOrder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B6A7FD05263D03C4E17492E5D2E0C722 /* Pods-TuConfirmOrder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DA10C1EC74C7DC264E6B2F11E4482D /* Pods-TuConfirmOrder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BC1B745F4B9B9D120D4122437EBC1707 /* TuConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 015CBE886BB2C1A0B53CF560A513275E /* TuConfirmOrder-dummy.m */; };
-		C4860A503F38315B690E92EBAF5ADE75 /* Target_TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B59957FD36C024A5586A8A9D2282A73 /* Target_TAConfirmOrder.m */; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D5AA033264C47DCB4BC919F1B36BD982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E59AE45A4FCF5D7CC2245B7D2A0B571E /* TAConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41428A4C4A3A2B194B806F7BABE41A34 /* TAConfirmOrderViewController.m */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F601F61C3A6C458355DC06930965829E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F97ED4CD160578E84061709EA1E45D3C /* Pods-TuConfirmOrder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0669999357D1CA0F4EC16D9C9888FB4 /* Pods-TuConfirmOrder_Example-dummy.m */; };
+		7BC83FE25B68BF77660B68A12EE7669C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD6D145C3C620D505308A1D49E12E5 /* CTMediator+HandyTools.m */; };
+		84891E2DC0D5BD47BF5B1A1BF7A3925C /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B36ED2F9BAF2EC96B1AE5F425BD058 /* x@2x.png */; };
+		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75356964B9CE3DA93F1297D341A0CEC3 /* CTMediator-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4873E7FF4A31EC702582F375DBA1AC90 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0820DD613BED99356748C3F27A0BA1 /* FBSnapshotTestCase.m */; };
+		8D8259A785B8A2981A5D33B9323C63FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F739CBFF179A19FE3C4970EDCD90647F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F51294691761285DF878F31A8C209F /* TuConfirmOrder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 163B1BA3B4C179B7B994D05F7251010C /* TuConfirmOrder.bundle */; };
+		977B5DEFE58B7F93EDDDD235C7D7F8B5 /* x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E067DEB67821762C73F866611A3F1DC /* x@3x.png */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72459E97BD80CA2EECCE51754A808325 /* SwiftSupport.swift */; };
+		A0EB84C5A28535A14871B2B8792E75A4 /* TuConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 229577B5C59EC55F3BC5A007FF8314FA /* TuConfirmOrder-dummy.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DFAA7B3BB70168F1D668BE75E9D983 /* UIImage+Snapshot.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EBB74515260BC0285A707CDA7A69CE /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C04F214B0ED5B1A1D48252FAD5F87864 /* Shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D7E30AE14AAD4C4E2307C3138F912DC /* Shape@2x.png */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D4278AB43E7CA732049B61FAA2D63B /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CD4C2FA2362A20D629EDEE9C3B2103 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5AA033264C47DCB4BC919F1B36BD982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */; };
+		DAD550A065E5FAE6752873DAFE50F71E /* TuConfirmOrderBusinessCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2880861D11E289FB3C088188895CF6 /* TuConfirmOrderBusinessCategory.framework */; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679193476CED4FD68977C078633704F1 /* UIKit.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C16574DB7731387A11DAFD0B1085DE6 /* FBSnapshotTestCasePlatform.m */; };
+		EE286BB10A10BF0BD56B7CE0F5EE8E30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679193476CED4FD68977C078633704F1 /* UIKit.framework */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CF5CF823AB78BD85BF8903F79DBE55 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F217EB1A6E244C38AD466E5CA6BC6D4A /* CTMediator+TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC71C80DCCCC98B3D7A978AAA3575B7B /* CTMediator+TAConfirmOrder.m */; };
+		F6342488446BF19159F4523563663F4A /* Pods-TuConfirmOrder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DA10C1EC74C7DC264E6B2F11E4482D /* Pods-TuConfirmOrder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DF9D27AFE12E5ECAE1D1A4EA9C4C34 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33442F9B5966FFBA0AFC298A65F81440 /* PBXContainerItemProxy */ = {
+		0511D577DF95B4D76E062B2AE94AFE9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7EEF819486FFDB2878B8FC3AEEF86D59;
 			remoteInfo = TuConfirmOrder;
+		};
+		3546AC89099E3A23B02EE74D01AA405E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554048E1A17488CC503CA914B58B9B58;
+			remoteInfo = TuConfirmOrderBusinessCategory;
+		};
+		363ED900F294A24288F8D4EE6954741E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		37CB6F0CD97039F87DE7D62BD9CF20B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554048E1A17488CC503CA914B58B9B58;
+			remoteInfo = TuConfirmOrderBusinessCategory;
+		};
+		4B102998670265E8B5B63FED7AF5870F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0644EB3BBB352A04CB2D49714D04063B;
+			remoteInfo = "TuConfirmOrder-TuConfirmOrder";
+		};
+		7395D62D2C57200E8DB08CD11D3110E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
 		};
 		A439575BCD0F93814857CFB6BBA45F18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -68,70 +125,121 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015CBE886BB2C1A0B53CF560A513275E /* TuConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TuConfirmOrder-dummy.m"; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0C79D3BE93FEEFCC488FB415A21DD96E /* TuConfirmOrder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TuConfirmOrder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		048723BCA15FC48F148314B30A427412 /* Target_TAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TAConfirmOrder.h; path = TuConfirmOrder/Classes/Target_TAConfirmOrder.h; sourceTree = "<group>"; };
 		0E4CB2046BF1799984E2824A4D23087B /* Pods_TuConfirmOrder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TuConfirmOrder_Tests.framework; path = "Pods-TuConfirmOrder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1389436E2EA24ECE63189099162F0B0B /* TuConfirmOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrder-prefix.pch"; sourceTree = "<group>"; };
+		163B1BA3B4C179B7B994D05F7251010C /* TuConfirmOrder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TuConfirmOrder.bundle; path = "TuConfirmOrder-TuConfirmOrder.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17674F7B1482D0B4E561CCCDEBD90465 /* TuConfirmOrder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrder-umbrella.h"; sourceTree = "<group>"; };
 		17BEE46526B169CC567B5396571A0E15 /* Pods-TuConfirmOrder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuConfirmOrder_Example-Info.plist"; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1F9FFAF8BC54BE88C1486B1CD569491C /* Target_TAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TAConfirmOrder.m; path = TuConfirmOrder/Classes/Target_TAConfirmOrder.m; sourceTree = "<group>"; };
+		229577B5C59EC55F3BC5A007FF8314FA /* TuConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TuConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		22B4200658A3CC06CB649BE9FAFA4503 /* TuConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuConfirmOrder.debug.xcconfig; sourceTree = "<group>"; };
+		2363AF1191FB302705F39E5356BF17EA /* TuConfirmOrder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TuConfirmOrder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23E3DC16A8C5828F3A086EC421CF1BE8 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		24D6FD6719D38823B29224A75A356F32 /* Pods_TuConfirmOrder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TuConfirmOrder_Example.framework; path = "Pods-TuConfirmOrder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280300BF417E97DD7C6E097BD65EC998 /* Pods-TuConfirmOrder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuConfirmOrder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A609AA4FF0D41176127D6ABDFE6B934 /* TuConfirmOrderBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuConfirmOrderBusinessCategory.release.xcconfig; sourceTree = "<group>"; };
+		2D9366959716C42A69709C955FA24785 /* TAConfirmOrderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAConfirmOrderViewController.m; path = TuConfirmOrder/Classes/TAConfirmOrderViewController.m; sourceTree = "<group>"; };
+		2EBA50C7AFA7B1ABDB745E25152C5430 /* TuConfirmOrderBusinessCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TuConfirmOrderBusinessCategory-Info.plist"; sourceTree = "<group>"; };
 		34DAE47DA9E5F59C83D1F0943F31DF39 /* Pods-TuConfirmOrder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TuConfirmOrder_Tests.modulemap"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		41428A4C4A3A2B194B806F7BABE41A34 /* TAConfirmOrderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAConfirmOrderViewController.m; path = TuConfirmOrder/Classes/TAConfirmOrderViewController.m; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		36750687A5025BD4D974D4E78DE006D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3716AA0DED9B3D904A8A356DD1D5384F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		3BACB69925DE56039F5B753350AC046D /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		3D428BBBA951AE2B9D7291FB60909D1B /* Shape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Shape@3x.png"; path = "TuConfirmOrder/Assets/Shape@3x.png"; sourceTree = "<group>"; };
+		3D7E30AE14AAD4C4E2307C3138F912DC /* Shape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Shape@2x.png"; path = "TuConfirmOrder/Assets/Shape@2x.png"; sourceTree = "<group>"; };
 		427B57239E02019EC90DE578B8FA62F5 /* Pods-TuConfirmOrder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TuConfirmOrder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		539F0D52B1661875484FBCE13E2EE293 /* TuConfirmOrder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuConfirmOrder.xcconfig; sourceTree = "<group>"; };
+		43DF9D27AFE12E5ECAE1D1A4EA9C4C34 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		4873E7FF4A31EC702582F375DBA1AC90 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		4C1E84AC8F3D18FD303B59D6B3284AC9 /* CTMediator+TAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAConfirmOrder.h"; path = "TuConfirmOrderBusinessCategory/Classes/CTMediator+TAConfirmOrder.h"; sourceTree = "<group>"; };
+		52C59CA67673AD5F8AEC015A6C15BF82 /* TuConfirmOrderBusinessCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TuConfirmOrderBusinessCategory.framework; path = TuConfirmOrderBusinessCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EFF04658762B5ABAEE508422838926 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		59EED1AAF910D718AB8E73245E639A26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CCD6D145C3C620D505308A1D49E12E5 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		5DFA6F75EE47346D4F6E3A16DA100E71 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		638150DAF4400A379CE66894064A155D /* Pods-TuConfirmOrder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuConfirmOrder_Tests-Info.plist"; sourceTree = "<group>"; };
+		66BD5B71D9899B438A63C24C86CCF857 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		679193476CED4FD68977C078633704F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		67B36ED2F9BAF2EC96B1AE5F425BD058 /* x@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "x@2x.png"; path = "TuConfirmOrder/Assets/x@2x.png"; sourceTree = "<group>"; };
+		67B5AABDF9534D152CE5A99AE4B4F906 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9B9583439C2EC69A82609E8FE0AADF /* Pods-TuConfirmOrder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuConfirmOrder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71D325AE7F00850A355AF0ADD38618E5 /* TuConfirmOrderBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuConfirmOrderBusinessCategory.debug.xcconfig; sourceTree = "<group>"; };
+		71EBB74515260BC0285A707CDA7A69CE /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		72459E97BD80CA2EECCE51754A808325 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		735EDE47985D3FDF49AB2C2217D19B9F /* Pods-TuConfirmOrder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TuConfirmOrder_Tests-dummy.m"; sourceTree = "<group>"; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		75D538D2976C1735E4132C73C0B71D81 /* TuConfirmOrder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrder-umbrella.h"; sourceTree = "<group>"; };
+		75356964B9CE3DA93F1297D341A0CEC3 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		75DFAA7B3BB70168F1D668BE75E9D983 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		76624AC802AFC86326CCAA64251E1ACE /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		78BDCBF3331F610EE44586E82AAC6C6C /* Pods-TuConfirmOrder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TuConfirmOrder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		78EE7C4928D6BEA72F22A5F12526E1EF /* TuConfirmOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TuConfirmOrder.framework; path = TuConfirmOrder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8B59957FD36C024A5586A8A9D2282A73 /* Target_TAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TAConfirmOrder.m; path = TuConfirmOrder/Classes/Target_TAConfirmOrder.m; sourceTree = "<group>"; };
-		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		7C16574DB7731387A11DAFD0B1085DE6 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7E067DEB67821762C73F866611A3F1DC /* x@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "x@3x.png"; path = "TuConfirmOrder/Assets/x@3x.png"; sourceTree = "<group>"; };
+		7F90B263D467400A8547AE7CF4C897DC /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		856417BA439AF92DDAF2FBBC6EA5359C /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		85CD4C2FA2362A20D629EDEE9C3B2103 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		85CF5CF823AB78BD85BF8903F79DBE55 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F2880861D11E289FB3C088188895CF6 /* TuConfirmOrderBusinessCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TuConfirmOrderBusinessCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F1EEAB5BD8A569F96A95FE33A1B03F /* TuConfirmOrder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TuConfirmOrder-Info.plist"; sourceTree = "<group>"; };
+		9AB3F6FDDDBFFF45D1B3F5A169132280 /* ic_more@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_more@3x.png"; path = "TuConfirmOrder/Assets/ic_more@3x.png"; sourceTree = "<group>"; };
 		9C408C33011DEB841A45CF5A71AA4BFA /* Pods-TuConfirmOrder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TuConfirmOrder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A05182B334BE01CCB91CA65C71CDBF20 /* TuConfirmOrderBusinessCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrderBusinessCategory-umbrella.h"; sourceTree = "<group>"; };
+		A315CDA63C8F08988251014BB8C019C3 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		A3EA1766F767268A1CD7ADA55E57715E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		A7DA10C1EC74C7DC264E6B2F11E4482D /* Pods-TuConfirmOrder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TuConfirmOrder_Example-umbrella.h"; sourceTree = "<group>"; };
-		A8CB744C009AB73C6203BF4189B16F37 /* TAConfirmOrderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAConfirmOrderViewController.h; path = TuConfirmOrder/Classes/TAConfirmOrderViewController.h; sourceTree = "<group>"; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		B4B30282A0306B6E2B4FC217D8AD7E8C /* Target_TAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TAConfirmOrder.h; path = TuConfirmOrder/Classes/Target_TAConfirmOrder.h; sourceTree = "<group>"; };
-		BEB9B221600BE22D556CBB261F0F60BD /* TuConfirmOrder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TuConfirmOrder.modulemap; sourceTree = "<group>"; };
+		A8D4278AB43E7CA732049B61FAA2D63B /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		A9393B29FB4865D1DE91844F2B30E3BE /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		AC71C80DCCCC98B3D7A978AAA3575B7B /* CTMediator+TAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAConfirmOrder.m"; path = "TuConfirmOrderBusinessCategory/Classes/CTMediator+TAConfirmOrder.m"; sourceTree = "<group>"; };
+		B90186C3A0342263DE10F4FD4EFFC03A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB0820DD613BED99356748C3F27A0BA1 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		BE6BB7EA52AE5D8883A6F4A2D93A1D77 /* TuConfirmOrderBusinessCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TuConfirmOrderBusinessCategory-dummy.m"; sourceTree = "<group>"; };
 		C00447D1CBD9AB676F57ADA485F10400 /* Pods-TuConfirmOrder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuConfirmOrder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0669999357D1CA0F4EC16D9C9888FB4 /* Pods-TuConfirmOrder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TuConfirmOrder_Example-dummy.m"; sourceTree = "<group>"; };
-		C17BFB331EEA3935D452F427D69B13E5 /* TuConfirmOrder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrder-prefix.pch"; sourceTree = "<group>"; };
 		C30C87EAF1A713051552CAA748054312 /* Pods-TuConfirmOrder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuConfirmOrder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C5DC679D39FB563D75DAF2F6CA67B8F8 /* Pods-TuConfirmOrder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuConfirmOrder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C7B5A0697A44A19655A88E09ED94F240 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C8E51F2F229889F511EAC57F50F74AD4 /* Pods-TuConfirmOrder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuConfirmOrder_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		DB1C8E8FF7A9B8CE478A934E30EBC5B0 /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
 		DFCCEACB983811422D7A9E7C64CB1AC4 /* Pods-TuConfirmOrder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuConfirmOrder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E1F2C0422B5E8B11F0CDEAF7DF0D7D09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E16DE2ACF13EE089BBF0A239F89D81ED /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		E3D37461ECBC199ADC98AA4FB71A563E /* TuConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TuConfirmOrder.release.xcconfig; sourceTree = "<group>"; };
 		E5E7C1306C6C0D99F848D92098B41BA9 /* Pods-TuConfirmOrder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TuConfirmOrder_Example.modulemap"; sourceTree = "<group>"; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E61EC6AA4CDC6C9DBFF54A4C4587DA77 /* TAConfirmOrderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAConfirmOrderViewController.h; path = TuConfirmOrder/Classes/TAConfirmOrderViewController.h; sourceTree = "<group>"; };
 		E624C416BB60C54D212560AC5AF9599A /* Pods-TuConfirmOrder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuConfirmOrder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA6C2E9AE01EF1EFB9447B9988D26866 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F9F32566556BE6F06221E887FF9DA708 /* TuConfirmOrder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TuConfirmOrder-Info.plist"; sourceTree = "<group>"; };
+		E79E201C281720417EC6EB6F9B426271 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		E8FB9F99F183C3C376623B0FB83B8766 /* ic_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_more@2x.png"; path = "TuConfirmOrder/Assets/ic_more@2x.png"; sourceTree = "<group>"; };
+		E97080BDCED1460E169183FC71242336 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		EBE2C450AE112B6DDE8F64843AAAF59B /* TuConfirmOrderBusinessCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TuConfirmOrderBusinessCategory.modulemap; sourceTree = "<group>"; };
+		ED3F7297BF4B00E3E5B2868B33795608 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		ED6CE367976A8B89BE13B8727AD7A14E /* TuConfirmOrderBusinessCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TuConfirmOrderBusinessCategory-prefix.pch"; sourceTree = "<group>"; };
+		F09DAED04FA00E229E03EBC489323E96 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		F1C8DC1B5CF66301F696DCA6918D44D0 /* TuConfirmOrder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TuConfirmOrder.modulemap; sourceTree = "<group>"; };
+		F24E217D19C359E17E8C546936E8C63E /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F739CBFF179A19FE3C4970EDCD90647F /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		F7C88C8559D6EF9A672A44F3A318BE00 /* ResourceBundle-TuConfirmOrder-TuConfirmOrder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TuConfirmOrder-TuConfirmOrder-Info.plist"; sourceTree = "<group>"; };
+		FC03F43E942E8A2545C764CD929BD979 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3BE9F29C45E68B34107A574D2C6CC907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC83FE25B68BF77660B68A12EE7669C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42843E18D90B50D23BF68315BF9C8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34597982818C6767EE491DC195D7D7A7 /* Foundation.framework in Frameworks */,
+				EE286BB10A10BF0BD56B7CE0F5EE8E30 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E7D512445A8F3CE0D39F4D23C44E934 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,19 +248,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD9CED3C6B3BD32285B241B1EB656EDD /* Frameworks */ = {
+		5A79B85B971991226C99F23632680FBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4721B1E5C2C01920470F46669C937B57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E39B356421FA96F789D8FBEB91A72454 /* Frameworks */ = {
+		63E7D4ADA94D976BD5FE984EAEEB0278 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F601F61C3A6C458355DC06930965829E /* Foundation.framework in Frameworks */,
+				502B3711BA63F784A8B54B4A1BFC6BEC /* Foundation.framework in Frameworks */,
+				DAD550A065E5FAE6752873DAFE50F71E /* TuConfirmOrderBusinessCategory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696A15BD0F0C019217A91EEC4378AFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34532A04FBD334576ABC3234B84F4EEF /* CTMediator.framework in Frameworks */,
+				8D8259A785B8A2981A5D33B9323C63FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,18 +287,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C45CDA5E5B7E6714287FCC7C93B65F9 /* Support Files */ = {
+		0528146BD0825ABFA936A7B75D9442A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEB9B221600BE22D556CBB261F0F60BD /* TuConfirmOrder.modulemap */,
-				539F0D52B1661875484FBCE13E2EE293 /* TuConfirmOrder.xcconfig */,
-				015CBE886BB2C1A0B53CF560A513275E /* TuConfirmOrder-dummy.m */,
-				F9F32566556BE6F06221E887FF9DA708 /* TuConfirmOrder-Info.plist */,
-				C17BFB331EEA3935D452F427D69B13E5 /* TuConfirmOrder-prefix.pch */,
-				75D538D2976C1735E4132C73C0B71D81 /* TuConfirmOrder-umbrella.h */,
+				EBE2C450AE112B6DDE8F64843AAAF59B /* TuConfirmOrderBusinessCategory.modulemap */,
+				BE6BB7EA52AE5D8883A6F4A2D93A1D77 /* TuConfirmOrderBusinessCategory-dummy.m */,
+				2EBA50C7AFA7B1ABDB745E25152C5430 /* TuConfirmOrderBusinessCategory-Info.plist */,
+				ED6CE367976A8B89BE13B8727AD7A14E /* TuConfirmOrderBusinessCategory-prefix.pch */,
+				A05182B334BE01CCB91CA65C71CDBF20 /* TuConfirmOrderBusinessCategory-umbrella.h */,
+				71D325AE7F00850A355AF0ADD38618E5 /* TuConfirmOrderBusinessCategory.debug.xcconfig */,
+				2A609AA4FF0D41176127D6ABDFE6B934 /* TuConfirmOrderBusinessCategory.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TuConfirmOrder";
+			path = "../Target Support Files/TuConfirmOrderBusinessCategory";
+			sourceTree = "<group>";
+		};
+		16C913025F4B17C5F58127E041D9D0D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3716AA0DED9B3D904A8A356DD1D5384F /* FBSnapshotTestCase.modulemap */,
+				36750687A5025BD4D974D4E78DE006D2 /* FBSnapshotTestCase-dummy.m */,
+				76624AC802AFC86326CCAA64251E1ACE /* FBSnapshotTestCase-Info.plist */,
+				54EFF04658762B5ABAEE508422838926 /* FBSnapshotTestCase-prefix.pch */,
+				43DF9D27AFE12E5ECAE1D1A4EA9C4C34 /* FBSnapshotTestCase-umbrella.h */,
+				5DFA6F75EE47346D4F6E3A16DA100E71 /* FBSnapshotTestCase.debug.xcconfig */,
+				A315CDA63C8F08988251014BB8C019C3 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 		292EAA9CBE5BF4BAC1ED030056A659FF /* Pods-TuConfirmOrder_Tests */ = {
@@ -218,18 +351,57 @@
 			path = "Target Support Files/Pods-TuConfirmOrder_Example";
 			sourceTree = "<group>";
 		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+		32ABCE728DCF1E85340BEF0EDACD5163 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+				D242844133CA5E272F61A484D994698C /* CTMediator */,
+				B644F4BC3E60A63E78B9F15E35B9A4B1 /* FBSnapshotTestCase */,
+				CAED46924D6FED78BD11722F7CF2C86A /* TuConfirmOrderBusinessCategory */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42A882114FC449945AC7D2DDFEF5E490 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				87D558AA6647608BF0FAA6E2B05E303F /* Foundation.framework */,
+				C7B5A0697A44A19655A88E09ED94F240 /* QuartzCore.framework */,
+				679193476CED4FD68977C078633704F1 /* UIKit.framework */,
+				66BD5B71D9899B438A63C24C86CCF857 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F22E85D2EF7B5D42F1C281495E7C967 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				640A5FCE593B57B7A173F5E467392582 /* TuConfirmOrder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5B4C7B35733E18484AA0076DA0972343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				24D6FD6719D38823B29224A75A356F32 /* Pods_TuConfirmOrder_Example.framework */,
+				0E4CB2046BF1799984E2824A4D23087B /* Pods_TuConfirmOrder_Tests.framework */,
+				163B1BA3B4C179B7B994D05F7251010C /* TuConfirmOrder.bundle */,
+				78EE7C4928D6BEA72F22A5F12526E1EF /* TuConfirmOrder.framework */,
+				52C59CA67673AD5F8AEC015A6C15BF82 /* TuConfirmOrderBusinessCategory.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5D7E0AC1F975C60096097BF039E4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F24E217D19C359E17E8C546936E8C63E /* CTMediator.framework */,
+				8F2880861D11E289FB3C088188895CF6 /* TuConfirmOrderBusinessCategory.framework */,
+				42A882114FC449945AC7D2DDFEF5E490 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6182AC816958E05D70B79EEDAF6C2A10 /* Targets Support Files */ = {
@@ -241,136 +413,178 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+		640A5FCE593B57B7A173F5E467392582 /* TuConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
-				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
-				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
-				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
-				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+				E61EC6AA4CDC6C9DBFF54A4C4587DA77 /* TAConfirmOrderViewController.h */,
+				2D9366959716C42A69709C955FA24785 /* TAConfirmOrderViewController.m */,
+				048723BCA15FC48F148314B30A427412 /* Target_TAConfirmOrder.h */,
+				1F9FFAF8BC54BE88C1486B1CD569491C /* Target_TAConfirmOrder.m */,
+				7C9A2E76ACD75BE579D1952C44EE46B4 /* Pod */,
+				87797550B64B7A12D9A74F075656C7D7 /* Resources */,
+				AF5892711BEB3682208AA9FEB4BBACA2 /* Support Files */,
 			);
-			name = iOS;
+			name = TuConfirmOrder;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+		7053ACAB086410F7D4EB6C51E6ECAA26 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+				FC03F43E942E8A2545C764CD929BD979 /* FBSnapshotTestCase.h */,
+				BB0820DD613BED99356748C3F27A0BA1 /* FBSnapshotTestCase.m */,
+				A8D4278AB43E7CA732049B61FAA2D63B /* FBSnapshotTestCasePlatform.h */,
+				7C16574DB7731387A11DAFD0B1085DE6 /* FBSnapshotTestCasePlatform.m */,
+				F739CBFF179A19FE3C4970EDCD90647F /* FBSnapshotTestController.h */,
+				4873E7FF4A31EC702582F375DBA1AC90 /* FBSnapshotTestController.m */,
+				3BACB69925DE56039F5B753350AC046D /* UIApplication+StrictKeyWindow.h */,
+				67B5AABDF9534D152CE5A99AE4B4F906 /* UIApplication+StrictKeyWindow.m */,
+				85CF5CF823AB78BD85BF8903F79DBE55 /* UIImage+Compare.h */,
+				E97080BDCED1460E169183FC71242336 /* UIImage+Compare.m */,
+				85CD4C2FA2362A20D629EDEE9C3B2103 /* UIImage+Diff.h */,
+				A9393B29FB4865D1DE91844F2B30E3BE /* UIImage+Diff.m */,
+				71EBB74515260BC0285A707CDA7A69CE /* UIImage+Snapshot.h */,
+				75DFAA7B3BB70168F1D668BE75E9D983 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7C9A2E76ACD75BE579D1952C44EE46B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				59EED1AAF910D718AB8E73245E639A26 /* LICENSE */,
+				B90186C3A0342263DE10F4FD4EFFC03A /* README.md */,
+				2363AF1191FB302705F39E5356BF17EA /* TuConfirmOrder.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		81EF27E95D69EAA7C3C1DBA6E8A10395 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				72459E97BD80CA2EECCE51754A808325 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+		87797550B64B7A12D9A74F075656C7D7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+				E8FB9F99F183C3C376623B0FB83B8766 /* ic_more@2x.png */,
+				9AB3F6FDDDBFFF45D1B3F5A169132280 /* ic_more@3x.png */,
+				3D7E30AE14AAD4C4E2307C3138F912DC /* Shape@2x.png */,
+				3D428BBBA951AE2B9D7291FB60909D1B /* Shape@3x.png */,
+				67B36ED2F9BAF2EC96B1AE5F425BD058 /* x@2x.png */,
+				7E067DEB67821762C73F866611A3F1DC /* x@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF5892711BEB3682208AA9FEB4BBACA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C88C8559D6EF9A672A44F3A318BE00 /* ResourceBundle-TuConfirmOrder-TuConfirmOrder-Info.plist */,
+				F1C8DC1B5CF66301F696DCA6918D44D0 /* TuConfirmOrder.modulemap */,
+				229577B5C59EC55F3BC5A007FF8314FA /* TuConfirmOrder-dummy.m */,
+				98F1EEAB5BD8A569F96A95FE33A1B03F /* TuConfirmOrder-Info.plist */,
+				1389436E2EA24ECE63189099162F0B0B /* TuConfirmOrder-prefix.pch */,
+				17674F7B1482D0B4E561CCCDEBD90465 /* TuConfirmOrder-umbrella.h */,
+				22B4200658A3CC06CB649BE9FAFA4503 /* TuConfirmOrder.debug.xcconfig */,
+				E3D37461ECBC199ADC98AA4FB71A563E /* TuConfirmOrder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TuConfirmOrder";
+			sourceTree = "<group>";
+		};
+		B644F4BC3E60A63E78B9F15E35B9A4B1 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				7053ACAB086410F7D4EB6C51E6ECAA26 /* Core */,
+				16C913025F4B17C5F58127E041D9D0D9 /* Support Files */,
+				81EF27E95D69EAA7C3C1DBA6E8A10395 /* SwiftSupport */,
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		9D349587F950554948EA078B08A89169 /* Pod */ = {
+		CAED46924D6FED78BD11722F7CF2C86A /* TuConfirmOrderBusinessCategory */ = {
 			isa = PBXGroup;
 			children = (
-				EA6C2E9AE01EF1EFB9447B9988D26866 /* LICENSE */,
-				E1F2C0422B5E8B11F0CDEAF7DF0D7D09 /* README.md */,
-				0C79D3BE93FEEFCC488FB415A21DD96E /* TuConfirmOrder.podspec */,
+				4C1E84AC8F3D18FD303B59D6B3284AC9 /* CTMediator+TAConfirmOrder.h */,
+				AC71C80DCCCC98B3D7A978AAA3575B7B /* CTMediator+TAConfirmOrder.m */,
+				0528146BD0825ABFA936A7B75D9442A6 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		A0B6F68C8864636E1CD9EB4EA4766411 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5533777DC61F922C6E4FFB7D96DC2E3 /* TuConfirmOrder */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7DE5752EED0A4C4A430975244947611A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C5533777DC61F922C6E4FFB7D96DC2E3 /* TuConfirmOrder */ = {
-			isa = PBXGroup;
-			children = (
-				A8CB744C009AB73C6203BF4189B16F37 /* TAConfirmOrderViewController.h */,
-				41428A4C4A3A2B194B806F7BABE41A34 /* TAConfirmOrderViewController.m */,
-				B4B30282A0306B6E2B4FC217D8AD7E8C /* Target_TAConfirmOrder.h */,
-				8B59957FD36C024A5586A8A9D2282A73 /* Target_TAConfirmOrder.m */,
-				9D349587F950554948EA078B08A89169 /* Pod */,
-				1C45CDA5E5B7E6714287FCC7C93B65F9 /* Support Files */,
-			);
-			name = TuConfirmOrder;
-			path = ../..;
+			name = TuConfirmOrderBusinessCategory;
+			path = TuConfirmOrderBusinessCategory;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A0B6F68C8864636E1CD9EB4EA4766411 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				DA9041588DE3E6E4285F2687C1D3FFC9 /* Products */,
+				4F22E85D2EF7B5D42F1C281495E7C967 /* Development Pods */,
+				5B5D7E0AC1F975C60096097BF039E4EA /* Frameworks */,
+				32ABCE728DCF1E85340BEF0EDACD5163 /* Pods */,
+				5B4C7B35733E18484AA0076DA0972343 /* Products */,
 				6182AC816958E05D70B79EEDAF6C2A10 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DA9041588DE3E6E4285F2687C1D3FFC9 /* Products */ = {
+		D242844133CA5E272F61A484D994698C /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				24D6FD6719D38823B29224A75A356F32 /* Pods_TuConfirmOrder_Example.framework */,
-				0E4CB2046BF1799984E2824A4D23087B /* Pods_TuConfirmOrder_Tests.framework */,
-				78EE7C4928D6BEA72F22A5F12526E1EF /* TuConfirmOrder.framework */,
+				23E3DC16A8C5828F3A086EC421CF1BE8 /* CTMediator.h */,
+				856417BA439AF92DDAF2FBBC6EA5359C /* CTMediator.m */,
+				ED3F7297BF4B00E3E5B2868B33795608 /* CTMediator+HandyTools.h */,
+				5CCD6D145C3C620D505308A1D49E12E5 /* CTMediator+HandyTools.m */,
+				D9782D146783397343C849CE78D93F66 /* Support Files */,
 			);
-			name = Products;
+			name = CTMediator;
+			path = CTMediator;
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		D9782D146783397343C849CE78D93F66 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+				A3EA1766F767268A1CD7ADA55E57715E /* CTMediator.modulemap */,
+				75356964B9CE3DA93F1297D341A0CEC3 /* CTMediator-dummy.m */,
+				7F90B263D467400A8547AE7CF4C897DC /* CTMediator-Info.plist */,
+				E79E201C281720417EC6EB6F9B426271 /* CTMediator-prefix.pch */,
+				E16DE2ACF13EE089BBF0A239F89D81ED /* CTMediator-umbrella.h */,
+				F09DAED04FA00E229E03EBC489323E96 /* CTMediator.debug.xcconfig */,
+				DB1C8E8FF7A9B8CE478A934E30EBC5B0 /* CTMediator.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DD6A6AC3863E275FD1C4C9D01A88A80 /* Headers */ = {
+		033C5080BF94997CFA3E73833D979D26 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A7FD05263D03C4E17492E5D2E0C722 /* Pods-TuConfirmOrder_Example-umbrella.h in Headers */,
+				F6342488446BF19159F4523563663F4A /* Pods-TuConfirmOrder_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115E7C8ACA06CBE361419777676B9C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */,
+				3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */,
+				4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B75A878692AB5D19576821DE344E565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FF7DA8BC9900A8F25000DF0F575E1D /* CTMediator+TAConfirmOrder.h in Headers */,
+				61ED1196526E3B3FB84FF01157FE3F67 /* TuConfirmOrderBusinessCategory-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,13 +603,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80269640D4312CE060D53B2E939D0567 /* Headers */ = {
+		99726555650A094C0AFB7927E9ED95F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4052CF68B88D2BF94DCA3EF98C4F72F8 /* TAConfirmOrderViewController.h in Headers */,
-				2FCE9F0BD9BB54094D707D62A167644F /* Target_TAConfirmOrder.h in Headers */,
-				4FCD5D9E8811C3ECEB67A43C45589B9A /* TuConfirmOrder-umbrella.h in Headers */,
+				18B4C9C8741FD9760C61C6DD7C30EBF2 /* TAConfirmOrderViewController.h in Headers */,
+				1557B34D2DB83DAC73B30944C462B003 /* Target_TAConfirmOrder.h in Headers */,
+				30CCB8E2C233144F699BDA1BA371B32B /* TuConfirmOrder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,18 +624,74 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7EEF819486FFDB2878B8FC3AEEF86D59 /* TuConfirmOrder */ = {
+		0644EB3BBB352A04CB2D49714D04063B /* TuConfirmOrder-TuConfirmOrder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90F4E7C877AADD717D56E14A03C6DD5F /* Build configuration list for PBXNativeTarget "TuConfirmOrder" */;
+			buildConfigurationList = 7521ADF169886C89FAB8EB236C50E163 /* Build configuration list for PBXNativeTarget "TuConfirmOrder-TuConfirmOrder" */;
 			buildPhases = (
-				80269640D4312CE060D53B2E939D0567 /* Headers */,
-				C06F988E58444079657A31A633BDDFFD /* Sources */,
-				E39B356421FA96F789D8FBEB91A72454 /* Frameworks */,
-				6C376308524C0598B7FBA2517695DB91 /* Resources */,
+				8F98CFD51E44530BE6507060F956BC5E /* Sources */,
+				5A79B85B971991226C99F23632680FBC /* Frameworks */,
+				3C26771A4119BF263B3BA779FAB62DC6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "TuConfirmOrder-TuConfirmOrder";
+			productName = "TuConfirmOrder-TuConfirmOrder";
+			productReference = 163B1BA3B4C179B7B994D05F7251010C /* TuConfirmOrder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		554048E1A17488CC503CA914B58B9B58 /* TuConfirmOrderBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBFB0186E712D5EBD82399B2F27404E /* Build configuration list for PBXNativeTarget "TuConfirmOrderBusinessCategory" */;
+			buildPhases = (
+				2B75A878692AB5D19576821DE344E565 /* Headers */,
+				36E8F331F46BB853D85A85E440643D32 /* Sources */,
+				696A15BD0F0C019217A91EEC4378AFE9 /* Frameworks */,
+				AAB9FEDA0234BDA6D4C10302E7225907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC34F5EEBAED597469D3E3F7F89C79CC /* PBXTargetDependency */,
+			);
+			name = TuConfirmOrderBusinessCategory;
+			productName = TuConfirmOrderBusinessCategory;
+			productReference = 52C59CA67673AD5F8AEC015A6C15BF82 /* TuConfirmOrderBusinessCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				115E7C8ACA06CBE361419777676B9C48 /* Headers */,
+				F699361B098428FA5FA9F768BF848938 /* Sources */,
+				42843E18D90B50D23BF68315BF9C8CA1 /* Frameworks */,
+				A697C861232D981D33BAA24BF4F99825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EEF819486FFDB2878B8FC3AEEF86D59 /* TuConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD48D0F9DA30A412005C6E95756490CE /* Build configuration list for PBXNativeTarget "TuConfirmOrder" */;
+			buildPhases = (
+				99726555650A094C0AFB7927E9ED95F5 /* Headers */,
+				2F9B2C6C3439EAB56C2CF11E447B37C5 /* Sources */,
+				63E7D4ADA94D976BD5FE984EAEEB0278 /* Frameworks */,
+				E8250F083CCF263C1EE3420749FA48B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A03A6FCD24B7DEA0BFC382CEAD0A6C /* PBXTargetDependency */,
+				18C13282E84ECBAA3E64700763763345 /* PBXTargetDependency */,
 			);
 			name = TuConfirmOrder;
 			productName = TuConfirmOrder;
@@ -468,17 +738,19 @@
 		};
 		BDA3AC3CE532B5CD5423694ED03077FB /* Pods-TuConfirmOrder_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 774574FFFDEF426ACCAA9349AC83CD46 /* Build configuration list for PBXNativeTarget "Pods-TuConfirmOrder_Example" */;
+			buildConfigurationList = 9BABD8B069E2EC98D42D46F22D4E86BE /* Build configuration list for PBXNativeTarget "Pods-TuConfirmOrder_Example" */;
 			buildPhases = (
-				0DD6A6AC3863E275FD1C4C9D01A88A80 /* Headers */,
-				7B8CEC521FFA6DC8115373D8BEF12529 /* Sources */,
-				DD9CED3C6B3BD32285B241B1EB656EDD /* Frameworks */,
-				38B731B03CF32DC46BB7A8F497E53DF6 /* Resources */,
+				033C5080BF94997CFA3E73833D979D26 /* Headers */,
+				2D8E9830E2A15B7F3531BC41D156FFF9 /* Sources */,
+				3BE9F29C45E68B34107A574D2C6CC907 /* Frameworks */,
+				4D6C4C67DC6E754827C93FEBC96AFDE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48BF6AE20A7CE8DDD5D52AA91AF6BA5D /* PBXTargetDependency */,
+				7380BA05A3750B99FB6794D7B9C9945B /* PBXTargetDependency */,
+				A8A3BEBD4C048F2D8B6189EC6E21065D /* PBXTargetDependency */,
+				83135111159E14BC26A299C3B4D07250 /* PBXTargetDependency */,
 			);
 			name = "Pods-TuConfirmOrder_Example";
 			productName = "Pods-TuConfirmOrder_Example";
@@ -503,20 +775,36 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DA9041588DE3E6E4285F2687C1D3FFC9 /* Products */;
+			productRefGroup = 5B4C7B35733E18484AA0076DA0972343 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				BDA3AC3CE532B5CD5423694ED03077FB /* Pods-TuConfirmOrder_Example */,
 				A9EC918FB825C5A4511AE78217568E4E /* Pods-TuConfirmOrder_Tests */,
 				7EEF819486FFDB2878B8FC3AEEF86D59 /* TuConfirmOrder */,
+				0644EB3BBB352A04CB2D49714D04063B /* TuConfirmOrder-TuConfirmOrder */,
+				554048E1A17488CC503CA914B58B9B58 /* TuConfirmOrderBusinessCategory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38B731B03CF32DC46BB7A8F497E53DF6 /* Resources */ = {
+		3C26771A4119BF263B3BA779FAB62DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B72CDB83FA51BAA80541AD5AA2058F /* ic_more@2x.png in Resources */,
+				33DB326E4342E0A260FAA6E3EED54765 /* ic_more@3x.png in Resources */,
+				C04F214B0ED5B1A1D48252FAD5F87864 /* Shape@2x.png in Resources */,
+				581303D4EC3DB3781884D96C30753EDD /* Shape@3x.png in Resources */,
+				84891E2DC0D5BD47BF5B1A1BF7A3925C /* x@2x.png in Resources */,
+				977B5DEFE58B7F93EDDDD235C7D7F8B5 /* x@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6C4C67DC6E754827C93FEBC96AFDE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,7 +818,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C376308524C0598B7FBA2517695DB91 /* Resources */ = {
+		A697C861232D981D33BAA24BF4F99825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB9FEDA0234BDA6D4C10302E7225907 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -544,9 +839,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8250F083CCF263C1EE3420749FA48B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F51294691761285DF878F31A8C209F /* TuConfirmOrder.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2D8E9830E2A15B7F3531BC41D156FFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C55E0644EE66D6C2BFB58CF84B4EB5 /* Pods-TuConfirmOrder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9B2C6C3439EAB56C2CF11E447B37C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762FCD22F676BE15F70F06D2EAD5F402 /* TAConfirmOrderViewController.m in Sources */,
+				0DE748D5200F14C45DBEE849F3F3B663 /* Target_TAConfirmOrder.m in Sources */,
+				A0EB84C5A28535A14871B2B8792E75A4 /* TuConfirmOrder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34BA8594CD0E962B4C2BBFD16CD55FF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,11 +876,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B8CEC521FFA6DC8115373D8BEF12529 /* Sources */ = {
+		36E8F331F46BB853D85A85E440643D32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F97ED4CD160578E84061709EA1E45D3C /* Pods-TuConfirmOrder_Example-dummy.m in Sources */,
+				F217EB1A6E244C38AD466E5CA6BC6D4A /* CTMediator+TAConfirmOrder.m in Sources */,
+				6F1E84A57E640C86231F3B0B8B0F74D3 /* TuConfirmOrderBusinessCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98CFD51E44530BE6507060F956BC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,13 +908,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C06F988E58444079657A31A633BDDFFD /* Sources */ = {
+		F699361B098428FA5FA9F768BF848938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59AE45A4FCF5D7CC2245B7D2A0B571E /* TAConfirmOrderViewController.m in Sources */,
-				C4860A503F38315B690E92EBAF5ADE75 /* Target_TAConfirmOrder.m in Sources */,
-				BC1B745F4B9B9D120D4122437EBC1707 /* TuConfirmOrder-dummy.m in Sources */,
+				7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */,
+				85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */,
+				4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,24 +927,54 @@
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = DD93CDE9D52D6CC1955058FE22BF3EB1 /* PBXContainerItemProxy */;
 		};
+		18C13282E84ECBAA3E64700763763345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TuConfirmOrderBusinessCategory;
+			target = 554048E1A17488CC503CA914B58B9B58 /* TuConfirmOrderBusinessCategory */;
+			targetProxy = 37CB6F0CD97039F87DE7D62BD9CF20B3 /* PBXContainerItemProxy */;
+		};
 		1F5BDB399B3C4CFE1FC6656AA792A0BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TuConfirmOrder_Example";
 			target = BDA3AC3CE532B5CD5423694ED03077FB /* Pods-TuConfirmOrder_Example */;
 			targetProxy = A439575BCD0F93814857CFB6BBA45F18 /* PBXContainerItemProxy */;
 		};
-		48BF6AE20A7CE8DDD5D52AA91AF6BA5D /* PBXTargetDependency */ = {
+		7380BA05A3750B99FB6794D7B9C9945B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 363ED900F294A24288F8D4EE6954741E /* PBXContainerItemProxy */;
+		};
+		83135111159E14BC26A299C3B4D07250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TuConfirmOrderBusinessCategory;
+			target = 554048E1A17488CC503CA914B58B9B58 /* TuConfirmOrderBusinessCategory */;
+			targetProxy = 3546AC89099E3A23B02EE74D01AA405E /* PBXContainerItemProxy */;
+		};
+		93A03A6FCD24B7DEA0BFC382CEAD0A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TuConfirmOrder-TuConfirmOrder";
+			target = 0644EB3BBB352A04CB2D49714D04063B /* TuConfirmOrder-TuConfirmOrder */;
+			targetProxy = 4B102998670265E8B5B63FED7AF5870F /* PBXContainerItemProxy */;
+		};
+		A8A3BEBD4C048F2D8B6189EC6E21065D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TuConfirmOrder;
 			target = 7EEF819486FFDB2878B8FC3AEEF86D59 /* TuConfirmOrder */;
-			targetProxy = 33442F9B5966FFBA0AFC298A65F81440 /* PBXContainerItemProxy */;
+			targetProxy = 0511D577DF95B4D76E062B2AE94AFE9C /* PBXContainerItemProxy */;
+		};
+		FC34F5EEBAED597469D3E3F7F89C79CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 7395D62D2C57200E8DB08CD11D3110E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		187ECC9DC50D3838311BDA06E48DA211 /* Release */ = {
+		092BB8271B76B661090A62DE44794331 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 539F0D52B1661875484FBCE13E2EE293 /* TuConfirmOrder.xcconfig */;
+			baseConfigurationReference = 22B4200658A3CC06CB649BE9FAFA4503 /* TuConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -639,11 +998,41 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		1A9C80F3A7615F56E1A8349377D45B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D325AE7F00850A355AF0ADD38618E5 /* TuConfirmOrderBusinessCategory.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory.modulemap";
+				PRODUCT_MODULE_NAME = TuConfirmOrderBusinessCategory;
+				PRODUCT_NAME = TuConfirmOrderBusinessCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		1D7D09118EC692F5EEFAE49402902BFD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -678,6 +1067,134 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		288AD2D968416D47A3A4E91B993D1576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A609AA4FF0D41176127D6ABDFE6B934 /* TuConfirmOrderBusinessCategory.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TuConfirmOrderBusinessCategory/TuConfirmOrderBusinessCategory.modulemap";
+				PRODUCT_MODULE_NAME = TuConfirmOrderBusinessCategory;
+				PRODUCT_NAME = TuConfirmOrderBusinessCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		327CB666BB464123BB841C249199CC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1C8E8FF7A9B8CE478A934E30EBC5B0 /* CTMediator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFA6F75EE47346D4F6E3A16DA100E71 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		485BA62D704BE2CB281E24D412BD1B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30C87EAF1A713051552CAA748054312 /* Pods-TuConfirmOrder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -739,10 +1256,11 @@
 			};
 			name = Release;
 		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+		57D1602836C315F33CB87DFF75579B6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = E624C416BB60C54D212560AC5AF9599A /* Pods-TuConfirmOrder_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -752,18 +1270,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -868,107 +1387,43 @@
 			};
 			name = Debug;
 		};
-		98C50639D0A740F76F6971135C774C49 /* Release */ = {
+		826976566A66B9C906DE7D95EFAC60A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E624C416BB60C54D212560AC5AF9599A /* Pods-TuConfirmOrder_Example.release.xcconfig */;
+			baseConfigurationReference = 22B4200658A3CC06CB649BE9FAFA4503 /* TuConfirmOrder.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TuConfirmOrder";
+				IBSC_MODULE = TuConfirmOrder;
+				INFOPLIST_FILE = "Target Support Files/TuConfirmOrder/ResourceBundle-TuConfirmOrder-TuConfirmOrder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CC5D87F16350E652CD4E93F01C613057 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C30C87EAF1A713051552CAA748054312 /* Pods-TuConfirmOrder_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TuConfirmOrder_Example/Pods-TuConfirmOrder_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E3B088383494F1CED8325CD9238F27D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 539F0D52B1661875484FBCE13E2EE293 /* TuConfirmOrder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TuConfirmOrder/TuConfirmOrder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TuConfirmOrder/TuConfirmOrder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TuConfirmOrder/TuConfirmOrder.modulemap";
-				PRODUCT_MODULE_NAME = TuConfirmOrder;
 				PRODUCT_NAME = TuConfirmOrder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+		953D471A19260F9CC580B1CF58E72A91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = E3D37461ECBC199ADC98AA4FB71A563E /* TuConfirmOrder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TuConfirmOrder";
+				IBSC_MODULE = TuConfirmOrder;
+				INFOPLIST_FILE = "Target Support Files/TuConfirmOrder/ResourceBundle-TuConfirmOrder-TuConfirmOrder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TuConfirmOrder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A315CDA63C8F08988251014BB8C019C3 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -992,6 +1447,70 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C43439ABF5F6314E92330D4443BE6BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D37461ECBC199ADC98AA4FB71A563E /* TuConfirmOrder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TuConfirmOrder/TuConfirmOrder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TuConfirmOrder/TuConfirmOrder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TuConfirmOrder/TuConfirmOrder.modulemap";
+				PRODUCT_MODULE_NAME = TuConfirmOrder;
+				PRODUCT_NAME = TuConfirmOrder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E07B8AC05B281FCB308A74715C0FB890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09DAED04FA00E229E03EBC489323E96 /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1009,20 +1528,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		774574FFFDEF426ACCAA9349AC83CD46 /* Build configuration list for PBXNativeTarget "Pods-TuConfirmOrder_Example" */ = {
+		4FBFB0186E712D5EBD82399B2F27404E /* Build configuration list for PBXNativeTarget "TuConfirmOrderBusinessCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC5D87F16350E652CD4E93F01C613057 /* Debug */,
-				98C50639D0A740F76F6971135C774C49 /* Release */,
+				1A9C80F3A7615F56E1A8349377D45B0D /* Debug */,
+				288AD2D968416D47A3A4E91B993D1576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90F4E7C877AADD717D56E14A03C6DD5F /* Build configuration list for PBXNativeTarget "TuConfirmOrder" */ = {
+		7521ADF169886C89FAB8EB236C50E163 /* Build configuration list for PBXNativeTarget "TuConfirmOrder-TuConfirmOrder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3B088383494F1CED8325CD9238F27D4 /* Debug */,
-				187ECC9DC50D3838311BDA06E48DA211 /* Release */,
+				826976566A66B9C906DE7D95EFAC60A5 /* Debug */,
+				953D471A19260F9CC580B1CF58E72A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BABD8B069E2EC98D42D46F22D4E86BE /* Build configuration list for PBXNativeTarget "Pods-TuConfirmOrder_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485BA62D704BE2CB281E24D412BD1B5D /* Debug */,
+				57D1602836C315F33CB87DFF75579B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1030,8 +1558,26 @@
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD48D0F9DA30A412005C6E95756490CE /* Build configuration list for PBXNativeTarget "TuConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BB8271B76B661090A62DE44794331 /* Debug */,
+				C43439ABF5F6314E92330D4443BE6BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07B8AC05B281FCB308A74715C0FB890 /* Debug */,
+				327CB666BB464123BB841C249199CC21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

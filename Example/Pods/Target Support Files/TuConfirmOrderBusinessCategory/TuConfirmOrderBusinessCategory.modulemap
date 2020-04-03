@@ -1,0 +1,6 @@
+framework module TuConfirmOrderBusinessCategory {
+  umbrella header "TuConfirmOrderBusinessCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

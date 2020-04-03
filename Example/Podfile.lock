@@ -1,16 +1,24 @@
 PODS:
+  - CTMediator (28)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TuConfirmOrder (0.1.0)
+  - TuConfirmOrder (0.1.2):
+    - TuConfirmOrderBusinessCategory (~> 0.1.0)
+  - TuConfirmOrderBusinessCategory (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - FBSnapshotTestCase
   - TuConfirmOrder (from `../`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+  https://github.com/wuzhantu/TuSpecs.git:
+    - TuConfirmOrderBusinessCategory
   trunk:
     - FBSnapshotTestCase
 
@@ -19,9 +27,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TuConfirmOrder: 3080d405fb8613290e8e8708388067b2169a99db
+  TuConfirmOrder: 421f845e7391e529ed999600226eadc667191e6d
+  TuConfirmOrderBusinessCategory: 3ab6b479236eef9d4f913f7089d9a978e8906d95
 
-PODFILE CHECKSUM: 559276e191f9da8eb0af0a1d893b817a5e1875c5
+PODFILE CHECKSUM: 889c5555461417a803fa8e03eab64452b520463f
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

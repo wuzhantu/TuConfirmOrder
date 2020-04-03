@@ -7,7 +7,7 @@
 //
 
 #import "TAConfirmOrderViewController.h"
-#import "CTMediator+TAConfirmOrder.h"
+
 @interface TAConfirmOrderViewController ()
 @property (nonatomic, strong) UIButton *sureButton;
 
@@ -21,7 +21,19 @@
     
     [self.view addSubview:self.sureButton];
     
-    self.navigationItem.title = [NSString stringWithFormat:@"确认订单(%@)",self.goodsName];
+    self.navigationItem.title = [NSString stringWithFormat:@"我来确认订单(%@)",self.goodsName];
+    
+    UIImageView *imgView = [[UIImageView alloc]
+                            initWithFrame:CGRectMake(50, 100, 100, 100)];
+    imgView.backgroundColor = [UIColor redColor];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"TuConfirmOrder" withExtension:@"bundle" subdirectory:nil];
+    NSBundle *myBundle = [NSBundle bundleWithURL:url];
+    if (@available(iOS 13.0, *)) {
+        imgView.image = [UIImage imageNamed:@"ic_more" inBundle:myBundle withConfiguration:nil];
+    } else {
+        // Fallback on earlier versions
+    }
+    [self.view addSubview:imgView];
 }
 
 - (void)viewWillLayoutSubviews

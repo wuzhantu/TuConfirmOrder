@@ -7,6 +7,7 @@
 //
 
 #import "WUViewController.h"
+#import "CTMediator+TAConfirmOrder.h"
 
 @interface WUViewController ()
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+        UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:@"ddd"
+                                                                                                    goodsName:@"ff"
+                                                                                              ConfirmComplete:^{
+    //        self.statusLabel.text = @"购买成功";
+        }];
+        if (confirmOrderVC) {
+            [self presentViewController:confirmOrderVC animated:YES completion:nil];
+        }
 }
 
 - (void)didReceiveMemoryWarning
