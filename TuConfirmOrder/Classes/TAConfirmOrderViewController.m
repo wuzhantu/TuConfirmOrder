@@ -7,7 +7,7 @@
 //
 
 #import "TAConfirmOrderViewController.h"
-
+#import "CTMediator+TAConfirmOrder.h"
 @interface TAConfirmOrderViewController ()
 @property (nonatomic, strong) UIButton *sureButton;
 
