@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
-    
+    //其实这才是最新提交
     [self.view addSubview:self.sureButton];
     
     self.navigationItem.title = [NSString stringWithFormat:@"确认订单(%@)",self.goodsName];
