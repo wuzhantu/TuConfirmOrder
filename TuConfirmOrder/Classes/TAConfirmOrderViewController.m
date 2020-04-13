@@ -10,7 +10,7 @@
 #import "CTMediator+TAGoodsDetail.h"
 
 @interface TAConfirmOrderViewController ()
-@property (nonatomic, strong) UIButton *sureButton;
+@property (nonatomic, strong) UIButton *sureButton; //确认按钮
 
 @end
 
