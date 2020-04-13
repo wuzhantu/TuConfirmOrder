@@ -22,7 +22,7 @@
     
     [self.view addSubview:self.sureButton];
     
-    self.navigationItem.title = [NSString stringWithFormat:@"我来确认订单(%@)",self.goodsName];
+    self.navigationItem.title = [NSString stringWithFormat:@"确认订单(%@)",self.goodsName];
     
     UIImageView *imgView = [[UIImageView alloc]
                             initWithFrame:CGRectMake(50, 100, 100, 100)];
